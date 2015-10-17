@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ddst.yp.filefetcher.MainActivity" >
+
+    <EditText 
+        android:id="@+id/edittext_url"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:inputType="textUri"
+        android:hint="@string/url_hint"
+        style="@style/Widget.AppCompat.EditText"/>
+
+    <EditText
+        android:id="@+id/edittext_location"
+        android:layout_below="@+id/edittext_url"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:inputType="textUri"
+        android:ems="10"
+        android:hint="@string/location_hint" >
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/checkbox_backup"
+        android:layout_below="@+id/edittext_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backup_checkbox"
+        android:checked="true" />
+    
+    <Button
+        android:id="@+id/button_fetch"
+        android:layout_below="@+id/checkbox_backup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fetch_text" />
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">File Fetcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="url_hint">Target URL</string>
+    <string name="location_hint">Location</string>
+    <string name="backup_checkbox">Backup old file</string>
+	<string name="fetch_text">Fetch</string>
+	
+	<string name="default_target"></string>
+	<string name="default_location">/etc/hosts</string>
+    
+</resources>
