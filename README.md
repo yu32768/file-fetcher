@@ -13,7 +13,7 @@
  resource as specified by <a href="http://www.ietf.org/rfc/rfc1738.txt">RFC
  1738</a>.
 
- </p><h3>Parts of a URL</h3>
+ </p><h4>Parts of a URL</h4>
  A URL is composed of many parts. This class can both parse URL strings into
  parts and compose URL strings from parts. For example, consider the parts of
  this URL:
@@ -31,7 +31,7 @@
  <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getRef()">Ref</a></code></td><td><code>ref</code></td><td>fragment</td></tr>
  </tbody></table>
 
- <h3>Supported Protocols</h3>
+ <h4>Supported Protocols</h4>
  This class may be used to construct URLs with the following protocols:
  <ul>
  <li><strong>file</strong>: read files from the local filesystem.
