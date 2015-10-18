@@ -20,15 +20,15 @@
  <code>http://username:password@host:8080/directory/file?query#ref</code>:
  <table>
  <tbody><tr><th>Component</th><th>Example value</th><th>Also known as</th></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getProtocol()">Protocol</a></code></td><td><code>http</code></td><td>scheme</td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getAuthority()">Authority</a></code></td><td><code>username:password@host:8080</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getUserInfo()">User Info</a></code></td><td><code>username:password</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getHost()">Host</a></code></td><td><code>host</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getPort()">Port</a></code></td><td><code>8080</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getFile()">File</a></code></td><td><code>/directory/file?query</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getPath()">Path</a></code></td><td><code>/directory/file</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getQuery()">Query</a></code></td><td><code>query</code></td><td></td></tr>
- <tr><td><code><a href="/reference/java/net/URL.html#getRef()">Ref</a></code></td><td><code>ref</code></td><td>fragment</td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getProtocol()">Protocol</a></code></td><td><code>http</code></td><td>scheme</td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getAuthority()">Authority</a></code></td><td><code>username:password@host:8080</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getUserInfo()">User Info</a></code></td><td><code>username:password</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getHost()">Host</a></code></td><td><code>host</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getPort()">Port</a></code></td><td><code>8080</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getFile()">File</a></code></td><td><code>/directory/file?query</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getPath()">Path</a></code></td><td><code>/directory/file</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getQuery()">Query</a></code></td><td><code>query</code></td><td></td></tr>
+ <tr><td><code><a href="http://developer.android.com/reference/java/net/URL.html#getRef()">Ref</a></code></td><td><code>ref</code></td><td>fragment</td></tr>
  </tbody></table>
 
  <h3>Supported Protocols</h3>
@@ -41,14 +41,14 @@
      Transfer Protocol</a>
  </li><li><strong>https</strong>: <a href="http://www.ietf.org/rfc/rfc2818.txt">HTTP
      over TLS</a>
- </li><li><strong>jar</strong>: read <code><a href="/reference/java/util/jar/JarFile.html">Jar files</a></code> from the
+ </li><li><strong>jar</strong>: read <code><a href="http://developer.android.com/reference/java/util/jar/JarFile.html">Jar files</a></code> from the
      filesystem</li>
  </ul>
  In general, attempts to create URLs with any other protocol will fail with a
- <code><a href="/reference/java/net/MalformedURLException.html">MalformedURLException</a></code>. Applications may install handlers for other
- schemes using <code><a href="/reference/java/net/URL.html#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)">setURLStreamHandlerFactory(URLStreamHandlerFactory)</a></code> or with the <code>java.protocol.handler.pkgs</code> system property.
+ <code><a href="http://developer.android.com/reference/java/net/MalformedURLException.html">MalformedURLException</a></code>. Applications may install handlers for other
+ schemes using <code><a href="http://developer.android.com/reference/java/net/URL.html#setURLStreamHandlerFactory(java.net.URLStreamHandlerFactory)">setURLStreamHandlerFactory(URLStreamHandlerFactory)</a></code> or with the <code>java.protocol.handler.pkgs</code> system property.
 
- <p>The <code><a href="/reference/java/net/URI.html">URI</a></code> class can be used to manipulate URLs of any protocol.
+ <p>The <code><a href="http://developer.android.com/reference/java/net/URI.html">URI</a></code> class can be used to manipulate URLs of any protocol.
 </p>
 
 </div>
